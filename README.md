@@ -1,4 +1,4 @@
-# #️⃣ Multi-View VAE (**MNIST** & **SVHN**)
+# Multi-View VAE (**MNIST** & **SVHN**)
 
 This repository contains a PyTorch implementation focusing on building a joint Variational Autoencoder (VAE) to model the **MNIST** and **SVHN** datasets.
 

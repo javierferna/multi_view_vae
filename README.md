@@ -14,7 +14,7 @@ The primary goal of this lab was to build a multi-view generative model that cou
 
 3.  **Shared Latent Space (PoE)**: The projection into the shared latent space is achieved using a **Product of Experts (PoE)**. This method combines the mean $\mu$ and log-variance $$\log(\sigma^2)$$ from both encoders to compute the parameters of a joint posterior distribution.
 
-4.  **Training**: The model is trained by optimizing the Evidence Lower Bound (ELBO), which consists of the sum of the Binary Cross-Entropy (BCE) reconstruction losses for both views and the Kullback-Leibler (KL) divergence of the joint posterior from the standard normal prior.
+4.  **Training**: The model is trained by optimizing the Evidence Lower Bound (ELBO), which consists of the sum of the Binary Cross-Entropy (BCE) loss (**MNIST**), Mean Squared Error (MSE) loss (**SVHN**), and the Kullback-Leibler (KL) divergence of the joint posterior from the standard normal prior.
 
 ---
 
